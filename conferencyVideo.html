@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Conferency Video</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link media="screen,projection" rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="css/icon.css" rel="stylesheet">
+    <link href="css/conferency.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="input-field col s12">
+            <i class="material-icons prefix">settings_input_hdmi</i>
+            <input id="txt-roomid" type="text" class="validate">
+            <label for="txt-roomid">Token de compartilhamento:</label>
+        </div>
+
+        <a id="btnStartVideoConferency" class="waves-effect waves-light btn">
+            <i class="material-icons right">videocam</i> Iniciar Vídeo Conferência
+        </a>
+
+        <div class="img-responsive" id="local-videos-container"></div>
+        <div class="img-responsive" id="remote-videos-container"></div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/RTCMultiConnection.min.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/conferency.js"></script>
+
+</body>
+
+</html>

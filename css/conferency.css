@@ -1,0 +1,53 @@
+video {
+    width: 100%;
+    height: 50%;
+    /*  border-radius: 13px; */
+    margin-top: 7px;
+}
+html {
+    margin-top: 13px;
+}
+.input-field.col label {
+    font-size: 17px;
+    left: -31px;
+}
+.input-field .prefix {
+    margin-top: 12px;
+    margin-left: -5px;
+}
+.btn-floating {
+    width: 34px;
+    height: 34px;
+}
+.btn-floating i {
+    line-height: 34px;
+}
+.btn,
+.btn-large {
+    background-color: #0089ec;
+}
+.btn:hover,
+.btn-large:hover {
+    background-color: #0d78c5;
+}
+.input-field .prefix ~ input {
+    margin-left: 2rem;
+}
+.input-field .prefix ~ label,
+.input-field .prefix ~ .validate ~ label {
+    margin-left: 2rem;
+}
+input[type=text].valid,
+input[type=text]:focus.valid {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+input[type=text]:focus:not([readonly])+label {
+    color: #444;
+}
+.input-field .prefix.active {
+    color: #444;
+}
+a#btnStartVideoConferency {
+    margin-bottom: 20px;
+}
